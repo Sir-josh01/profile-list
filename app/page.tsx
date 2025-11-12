@@ -1,7 +1,23 @@
+import styles from '@/app/styles/home.module.css' 
 
 export default function Home() {
   return (
-    <div>
+    <div className={styles.container}>
+      Hello sasamine
+      Hello sasamine
+      Hello sasamine
+      Hello sasamine
+      Hello sasamine
+      Hello sasamine
+      Hello sasamine
+      Hello sasamine
+      Hello sasamine
+      Hello sasamine
+      Hello sasamine
+      Hello sasamine
+      Hello sasamine
+      Hello sasamine
+      Hello sasamine
       Hello sasamine
     </div>
   );
