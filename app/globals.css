@@ -1,8 +1,9 @@
 @import "tailwindcss";
 
 body {
-  background-color: white;
   color: #333;
+  background-color: grey;
+
 }
 
 a {
@@ -13,7 +14,10 @@ a {
 .content {
   max-width: 960px;
   margin: 0 auto;
-  
+  padding: 10px;
+  background-color: #ffff;
+  height: 100vh;
+
 }
 
 nav {
@@ -40,4 +44,14 @@ footer {
   margin-top: 60px;
   color: #777;
   border-top: 1px solid white;
+}
+
+.not-found {
+  text-align: center;
+}
+
+.not-found .link{
+  color: #4979ff;
+  text-decoration: underline;
+  font-weight: bold;
 }
