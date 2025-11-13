@@ -18,13 +18,13 @@ export default function NotFound() {
 
   return (
     <>
-    <div className="not-found">
+    {/* <div className="not-found">
       <h1>Opppps!!</h1> 
        <h2>that page cannot be found, this is a 404 Error</h2>
       <p>Go back to the <Link href="/" className="link">home-page</Link>
       </p>
-    </div>
-    
+    </div> */}
+
     <div className="not-found text-center mt-20">
       <h1 className="text-4xl font-bold text-red-600">Oppps!!</h1> 
       <h2 className="text-xl my-4">That page cannot be found. This is a 404 Error.</h2>
