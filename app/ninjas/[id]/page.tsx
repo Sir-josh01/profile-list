@@ -38,7 +38,7 @@ export default async function page(props: paramProps) {
   return (
     <div>
       <h2 className="font-bold text-[20px] mb-4">Skills/Equipment and Details</h2>
-      <p>
+      <div>
         <ul className="mb-4">
           <li>
             {" "}
@@ -54,12 +54,8 @@ export default async function page(props: paramProps) {
             Technique: Specialized in data correlation and analysis (e.g.,
             impact assessment of digital tools on financial performance).
           </li>
-          <li>
-            {" "}
-            Signature Move: Delivering highly concise and actionable solutions.
-          </li>
         </ul>
-      </p>
+      </div>
       <h1 className="text-[24px] font-bold mb-4">{user.name}</h1>
       <p>
         <strong>Username:</strong> {user.username}
