@@ -1,5 +1,5 @@
 import React from "react";
-import ninjas from "../data/data.json";
+import users from "../data/data.json";
 import Link from 'next/link'
 import styles from '@/app/styles/ninja.module.css'
 
@@ -7,10 +7,9 @@ export const metadata = {
   title: "Ninja Listing",
 };
 
-export default async function page() {
-  const data = ninjas;
+export default function page() {
+  const data = users;
 
-  // console.log(data)
   return (
     <>
       <div>
@@ -18,7 +17,7 @@ export default async function page() {
         <div>
           {data.map((user) => (
             <div key={user.id} className={styles.nameBox}>
-              <Link href='/ninjas/details'>
+              <Link href={`/ninjas/${user.id}`}>
                 <h3  className={styles.nameLink}>{user.name}</h3>
               </Link>
             </div>
