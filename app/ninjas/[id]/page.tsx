@@ -1,6 +1,5 @@
 import React from "react";
 import users from "@/app/data/data.json";
-// import NotFound from '../error'
 import { notFound } from "next/navigation";
 
 interface User {
@@ -38,6 +37,29 @@ export default async function page(props: paramProps) {
   }
   return (
     <div>
+      <h2 className="font-bold text-[20px] mb-4">Skills/Equipment and Details</h2>
+      <p>
+        <ul className="mb-4">
+          <li>
+            {" "}
+            Stealth: Mastery of Vanilla JavaScript and Native Web APIs (no bulky
+            frameworks needed).{" "}
+          </li>
+          <li>
+            {" "}
+            Weapon: Sharpened focus on Frontend Performance and UI/UX precision.
+          </li>
+          <li>
+            {" "}
+            Technique: Specialized in data correlation and analysis (e.g.,
+            impact assessment of digital tools on financial performance).
+          </li>
+          <li>
+            {" "}
+            Signature Move: Delivering highly concise and actionable solutions.
+          </li>
+        </ul>
+      </p>
       <h1 className="text-[24px] font-bold mb-4">{user.name}</h1>
       <p>
         <strong>Username:</strong> {user.username}
