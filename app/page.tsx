@@ -11,14 +11,8 @@ export default function Home() {
       <div>
         <h1 className={styles.title}>Homepage</h1>
         <p className={styles.text}>
-          Hello sasamine Hello sasamine Hello sasamine Hello sasamine Hello
-          sasamine Hello sasamine Hello sasamine Hello sasamine Hello sasamine
-          Hello sasamine Hello sasamine Hello sasamine Hello sasamine Hello
-          sasamine Hello sasamine Hello sasamine sasamine Hello sasamine Hello
-          sasamine sasamine Hello sasamine Hello sasamine sasamine Hello
-          sasamine Hello sasamine sasamine Hello sasamine Hello sasamine
-          sasamine Hello sasamine Hello sasamine sasamine Hello sasamine Hello
-          sasamine
+        <h2>🏡 My Home Base</h2>
+         My digital environment is built on modern web standards utilizing frontend JavaScript/HTML/CSS stacks, specifically excluding frameworks like Vue and Angular. I prioritize clean, performant, and maintainable code.
         </p>
 
         <Link className={styles.btn} href="/ninjas">
