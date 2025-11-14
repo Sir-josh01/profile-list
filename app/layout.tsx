@@ -27,7 +27,7 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: {
-    default : "NinjaList",
+    default : "ProfileList",
     template: "%s | NinjaList",
   },
   description: "Your comprehensive Listing of Ninjas",
